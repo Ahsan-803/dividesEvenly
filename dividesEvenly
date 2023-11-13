@@ -1,0 +1,26 @@
+///////////// Divide Evenly ??????????????????
+
+Console.WriteLine("")
+
+
+//// divideEvenly ???????????????
+
+Console.Write("Enter a number for 'A' : ");
+int a = Convert.ToInt32(Console.ReadLine());
+
+Console.Write("Enter a number for 'B' : ");
+int b = Convert.ToInt32(Console.ReadLine());
+
+dividEvenly(a, b);
+static void dividEvenly(int x, int z)
+{
+    if (x % z == 0)
+    {
+        Console.WriteLine("true");
+    }
+    else
+    {
+        Console.WriteLine("false");
+    }
+}
+
